@@ -147,20 +147,20 @@
   <main id="top">
 
   <!-- HERO -->
-  <section class="bg-white py-16 md:py-20 border-b border-zinc-100">
+  <section class="bg-white py-20 border-b border-zinc-100">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
       <div data-reveal>
         <div class="inline-flex items-center gap-2 bg-red-100 text-red-600 px-5 py-2 rounded-full text-sm font-medium mb-6">
           ★ 100 YEARS SERVING BLOOMINGTON
         </div>
-        <h1 class="text-5xl md:text-6xl font-extrabold leading-[1.02] tracking-tight">Complete Auto Care,<br>Done Right Since 1926</h1>
-        <p class="mt-6 text-xl text-zinc-600 max-w-xl">Trusted local mechanics in Bloomington. ASE-certified. Upfront pricing. Same-day service available.</p>
+        <h1 class="text-5xl md:text-6xl font-bold leading-none tracking-tight">Complete Auto Care,<br>Done Right Since 1926</h1>
+        <p class="mt-6 text-xl text-zinc-600">Your local Bloomington mechanics. ASE-certified. Honest upfront pricing. Same-day service on most repairs.</p>
 
         <div class="mt-10 flex flex-wrap gap-4">
-          <button onclick="openBooking()" class="bg-red-600 text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-semibold text-lg hover:bg-red-700 hover:scale-[1.03] transition">
+          <button onclick="openBooking()" class="bg-red-600 text-white px-10 py-5 rounded font-semibold text-lg hover:bg-red-700 hover:scale-105 transition">
             Schedule Appointment
           </button>
-          <a href="tel:+19525550142" class="border-2 border-red-600 text-red-600 px-8 md:px-10 py-4 md:py-5 rounded-lg font-semibold text-lg hover:bg-red-50 transition">
+          <a href="tel:+19525550142" class="border-2 border-red-600 text-red-600 px-10 py-5 rounded font-semibold text-lg hover:bg-red-50 transition">
             Call (952) 555-0142
           </a>
         </div>
@@ -168,19 +168,16 @@
         <div class="mt-12 flex flex-wrap items-center gap-10">
           <div>
             <div class="text-4xl font-bold">4.9 ★</div>
-            <div class="text-sm text-zinc-500">Over 300 Google Reviews</div>
+            <div class="text-sm text-zinc-500">312 Google Reviews</div>
           </div>
           <div>
             <div class="text-4xl font-bold">24mo</div>
-            <div class="text-sm text-zinc-500">Warranty on All Repairs</div>
-          </div>
-          <div>
-            <div class="text-4xl font-bold">100+</div>
-            <div class="text-sm text-zinc-500">Years in Business</div>
+            <div class="text-sm text-zinc-500">Warranty on Repairs</div>
           </div>
         </div>
       </div>
 
+      <!-- Quick Estimate Card -->
       <div class="bg-white border border-zinc-200 rounded-3xl p-8 shadow-lg" data-reveal data-delay="2">
         <div class="text-sm uppercase tracking-widest text-red-600 mb-4 font-semibold">Quick Estimate</div>
         <div class="space-y-1">
@@ -188,11 +185,10 @@
           <div class="flex justify-between py-3 border-b border-zinc-100"><span class="text-zinc-600">Brake Inspection</span><span class="text-emerald-600 font-semibold">FREE</span></div>
           <div class="flex justify-between py-3"><span class="text-zinc-600">Tire Rotation</span><span class="font-semibold">$25</span></div>
         </div>
-        <div class="mt-6 pt-6 border-t border-zinc-200 flex justify-between items-center">
+        <div class="mt-8 pt-6 border-t border-zinc-200 flex justify-between items-center">
           <span class="text-sm uppercase tracking-widest text-zinc-500">Out The Door</span>
           <span class="text-4xl font-bold text-red-600">$94</span>
         </div>
-        <button onclick="openBooking()" class="w-full mt-6 bg-red-600 hover:bg-red-700 text-white py-3.5 rounded-lg font-semibold transition">Book This Package</button>
       </div>
     </div>
   </section>
@@ -398,23 +394,33 @@
 
   <!-- FIND US -->
   <section id="find-us" class="py-20 bg-white border-t border-zinc-200">
-    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-stretch">
-      <div data-reveal>
-        <span class="text-red-600 font-semibold tracking-widest text-sm">FIND US</span>
-        <h2 class="text-4xl font-bold mt-3">Hours &amp; Location</h2>
-        <p class="text-zinc-600 text-lg mt-5 leading-relaxed">1450 American Blvd<br>Bloomington, MN 55425</p>
-        <ul class="my-7 max-w-md">
-          <li class="flex justify-between py-3.5 border-b border-zinc-200"><span class="font-medium">Monday – Friday</span><span class="font-medium">7:30 AM – 6:00 PM</span></li>
-          <li class="flex justify-between py-3.5 border-b border-zinc-200"><span class="text-zinc-600">Saturday</span><span class="text-zinc-600">8:00 AM – 2:00 PM</span></li>
-          <li class="flex justify-between py-3.5"><span class="text-zinc-600">Sunday</span><span class="text-zinc-600">Closed</span></li>
-        </ul>
-        <div class="flex flex-wrap gap-4">
-          <button onclick="openBooking()" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold transition">Schedule Service</button>
-          <a href="tel:+19525550142" class="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-red-50 transition">Call Us</a>
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div data-reveal>
+          <h2 class="text-4xl font-bold mb-8">Visit Our Bloomington Shop</h2>
+          <div class="space-y-6">
+            <div>
+              <div class="font-semibold">Address</div>
+              <div class="text-lg text-zinc-700">1450 American Blvd, Bloomington, MN 55425</div>
+            </div>
+            <div>
+              <div class="font-semibold">Phone</div>
+              <a href="tel:+19525550142" class="text-xl font-semibold text-red-600 hover:text-red-700">(952) 555-0142</a>
+            </div>
+            <div>
+              <div class="font-semibold">Hours</div>
+              <ul class="space-y-1 text-sm text-zinc-700">
+                <li>Mon–Fri: 7:30 AM – 6:00 PM</li>
+                <li>Saturday: 8:00 AM – 3:00 PM</li>
+                <li>Sunday: Closed</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="rounded-3xl overflow-hidden border border-zinc-200 min-h-[340px]">
-        <iframe title="Map to Summit Auto Care, Bloomington" loading="lazy" class="w-full h-full min-h-[340px]" style="border:0" src="https://www.openstreetmap.org/export/embed.html?bbox=-93.27%2C44.83%2C-93.20%2C44.87&layer=mapnik&marker=44.85%2C-93.24"></iframe>
+        <!-- TODO: replace the OpenStreetMap iframe below with the shop's real Google Maps embed code -->
+        <div class="rounded-3xl overflow-hidden shadow-lg border border-zinc-200" data-reveal data-delay="2">
+          <iframe title="Map to Summit Auto Care, Bloomington" src="https://www.openstreetmap.org/export/embed.html?bbox=-93.27%2C44.83%2C-93.20%2C44.87&layer=mapnik&marker=44.85%2C-93.24" width="100%" height="380" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+        </div>
       </div>
     </div>
   </section>
